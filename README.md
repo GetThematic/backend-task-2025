@@ -56,6 +56,11 @@ Fields
 - theme: the theme that all provided sentences are about
 - baseline: an array of sentences and ids
 
+Notes about the input data:
+
+- Sentences come from comments, ids are from comments, therefore there can be multiple sentences with the same id. This is expected and correct data.
+- Therefore an id could be in multiple resulting clusters, but should be only once per cluster.
+
 ## Expected Output
 
 ### Standalone Analysis Output
